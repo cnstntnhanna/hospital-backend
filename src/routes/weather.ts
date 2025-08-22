@@ -9,7 +9,7 @@ router.get("/", async (_req, res) => {
       "https://api.openweathermap.org/data/2.5/weather",
       {
         params: {
-          q: "Baguio",
+          q: "Alabang",
           appid: process.env.WEATHER_API_KEY,
           units: "metric"
         }

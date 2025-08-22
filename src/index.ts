@@ -9,7 +9,6 @@ const app = express();
 app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(express.json());
 
-// All routes under /api
 app.use("/api", routes);
 
 const PORT = process.env.PORT || 5000;
