@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ Allow frontend (Vercel) to call backend
 app.use(cors({
-  origin: "*", // you can replace * with your vercel domain for security
+  origin: "https://hospital-frontend-system.vercel.app", // you can replace * with your vercel domain for security
 }));
 
 // ✅ Example API route
