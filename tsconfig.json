@@ -1,36 +1,14 @@
 {
   "compilerOptions": {
-    /* File Layout */
-    "rootDir": "./src",
-    "outDir": "./dist",
-
-    /* Environment Settings */
-    "module": "esnext",             // ESM output
-    "moduleResolution": "node",     // Node-style resolution
-    "target": "esnext",              // Latest features
-    "lib": ["esnext"],
-    "types": ["node"],
-
-    /* Other Outputs */
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-
-    /* Stricter Typechecking */
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-
-    /* Recommended Options */
-    "strict": true,
-    "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
+    "target": "ES2020",
+    "module": "NodeNext",               
+    "moduleResolution": "NodeNext", 
+    "outDir": "dist",
+    "rootDir": "src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "strict": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["dist", "node_modules"]
-
+  "include": ["src"]
 }
